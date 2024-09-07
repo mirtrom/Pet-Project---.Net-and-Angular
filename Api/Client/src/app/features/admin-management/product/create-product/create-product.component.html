@@ -1,0 +1,50 @@
+<form #form="ngForm" (ngSubmit)="OnSubmit()">
+    <div class="border p-3 mt-4">
+        <div class="row pb-2">
+            <div class="col-12">
+                <h1 class="text-center">Create Product</h1>
+            </div>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" name="name" [(ngModel)]="model.name" required>
+            </div>
+            <div class="form-group">
+                <label for="description">Description</label>
+                <textarea class="form-control" id="description" name="description" [(ngModel)]="model.description" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="price">Price</label>
+                <input type="number" class="form-control" id="price" name="price" [(ngModel)]="model.price" required>
+            </div>
+            <div class="form-group mb-3">
+                <label for="category">Category</label>
+                <select class="form-control" id="category" name="category" [(ngModel)]="model.category.id" required>
+                  <option *ngFor="let category of categories" [value]="category.id">{{ category.name }}</option>
+                </select>
+            </div>
+            <div class="form-group mb-3">
+              <label for="image">Image</label>
+              <button type="button" class="btn btn-dark form-control" (click)="showImageSelector()">Select Image</button>
+          </div>
+          <div class="form-group">
+              <label for="image">Selected Image: </label>
+              <img style="width: 100px; height: 100px;" class="ms-3 card-img-top" [src]="imageUrl + model.image.url" [alt]="model.image.title">
+              <input type="text" class="form-control mt-3 mb-3" id="image" name="image" [(ngModel)]="model.image.url" disabled>
+          </div>
+            <div class="row">
+                <div class="col-6">
+                    <button type="submit" class="btn btn-dark form-control">Create</button>
+                </div>
+                <div class="col-6">
+                    <button type="button" (click)="OnCancel()" class="btn btn-secondary form-control">Back to list</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+<div class="images-container-model" [ngClass]="{'d-block': isImageSelectorVisible,
+'d-none': !isImageSelectorVisible
+}">
+  <button type="button" class="btn btn-dark" style="position: fixed; top: 10px; right: 10px;" (click)="hideImageSelector()">Close</button>
+  <app-image-selector/>
+</div>

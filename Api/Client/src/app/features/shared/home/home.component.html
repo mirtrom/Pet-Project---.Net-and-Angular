@@ -1,0 +1,28 @@
+<div class="container">
+	<div class="row pb-3">
+			<div class="col-lg-3 col-sm-6" *ngFor="let product of model">
+				<div class="row p-2">
+					<div class="col-12 p-1">
+						<div class="card border-0 p-3 shadow border-top border-5 rounded">
+							<img [src]="imageUrl + product.image.url" class="cardcard-img-top rounded" style="width:95%; height:310px" />
+							<div class="card-body pb-0">
+								<div class="pl-1">
+									<p class="card-title h5 text-dark opacity-75 text-uppercase text-center">product.Name</p>
+								</div>
+								<div class="pl-1">
+                  <p class="text-dark text-opacity-75 text-center">
+                    Price: <span>{{ product.price | currency }}</span>
+                  </p>
+								</div>
+								<div>
+									<a (click)="showDetails(product.id)" class="btn btn-dark bg-gradient border-0 form-control">
+										Details
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+	</div>
+</div>

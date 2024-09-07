@@ -1,0 +1,16 @@
+C:\Users\Misha\source\Repos\Pet-Project---.Net-and-Angular\Api\BusinessLogic\obj\Debug\net8.0\BusinessLogic.csproj.AssemblyReference.cache
+C:\Users\Misha\source\Repos\Pet-Project---.Net-and-Angular\Api\BusinessLogic\obj\Debug\net8.0\BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Misha\source\Repos\Pet-Project---.Net-and-Angular\Api\BusinessLogic\obj\Debug\net8.0\BusinessLogic.AssemblyInfoInputs.cache
+C:\Users\Misha\source\Repos\Pet-Project---.Net-and-Angular\Api\BusinessLogic\obj\Debug\net8.0\BusinessLogic.AssemblyInfo.cs
+C:\Users\Misha\source\Repos\Pet-Project---.Net-and-Angular\Api\BusinessLogic\obj\Debug\net8.0\BusinessLogic.csproj.CoreCompileInputs.cache
+C:\Users\Misha\source\Repos\Pet-Project---.Net-and-Angular\Api\BusinessLogic\obj\Debug\net8.0\BusinessLogic.sourcelink.json
+C:\Users\Misha\source\Repos\Pet-Project---.Net-and-Angular\Api\BusinessLogic\bin\Debug\net8.0\BusinessLogic.deps.json
+C:\Users\Misha\source\Repos\Pet-Project---.Net-and-Angular\Api\BusinessLogic\bin\Debug\net8.0\BusinessLogic.dll
+C:\Users\Misha\source\Repos\Pet-Project---.Net-and-Angular\Api\BusinessLogic\bin\Debug\net8.0\BusinessLogic.pdb
+C:\Users\Misha\source\Repos\Pet-Project---.Net-and-Angular\Api\BusinessLogic\bin\Debug\net8.0\Data.dll
+C:\Users\Misha\source\Repos\Pet-Project---.Net-and-Angular\Api\BusinessLogic\bin\Debug\net8.0\Data.pdb
+C:\Users\Misha\source\Repos\Pet-Project---.Net-and-Angular\Api\BusinessLogic\obj\Debug\net8.0\Business.CF5D6E35.Up2Date
+C:\Users\Misha\source\Repos\Pet-Project---.Net-and-Angular\Api\BusinessLogic\obj\Debug\net8.0\BusinessLogic.dll
+C:\Users\Misha\source\Repos\Pet-Project---.Net-and-Angular\Api\BusinessLogic\obj\Debug\net8.0\refint\BusinessLogic.dll
+C:\Users\Misha\source\Repos\Pet-Project---.Net-and-Angular\Api\BusinessLogic\obj\Debug\net8.0\BusinessLogic.pdb
+C:\Users\Misha\source\Repos\Pet-Project---.Net-and-Angular\Api\BusinessLogic\obj\Debug\net8.0\ref\BusinessLogic.dll

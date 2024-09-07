@@ -1,0 +1,52 @@
+<form>
+  <div class="card shadow border-0 mt-4 mb-4">
+    <div class="card-header bg-secondary bg-gradient text-light py-4">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h3 class="text-dark text-uppercase">{{ model.name }}</h3>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <div class="py-3">
+        <div class="row">
+          <div class="col-6 col-md-2 offset-lg-1 pb-1">
+            <a routerLink="/home" class="btn btn-outline-dark bg-gradient mb-5 fw-semibold btn-sm text-uppercase">
+              <small>Back to home</small>
+            </a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-lg-3 offset-lg-1 text-center mb-3">
+            <img [src]="imageUrl + model.image.url" width="100%" class="rounded" />
+          </div>
+          <div class="col-12 col-lg-6 offset-lg-1">
+            <div class="col-12 col-md-6 pb-4">
+              <span class="h3 text-dark text-opacity-50">{{ model.category.name }}</span>
+            </div>
+            <div class="row ps-2">
+              <h6 class="text-dark text-opacity-50 pb-2">
+                Price:
+                <span>{{ model.price | currency }}</span>
+              </h6>
+            </div>
+            <div class="row pl-2 my-3">
+              <p class="text-secondary lh-sm" [innerHTML]="model.description"></p>
+            </div>
+            <div class="row p-lg-2 mb-3">
+              <div class="col-md-4">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12 col-md-6 pb-1">
+                <button type="submit" class="btn btn-dark bg-gradient w-100 py-2 text-uppercase fw-semibold">
+                  Add to Cart
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</form>

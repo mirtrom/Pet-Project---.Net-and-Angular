@@ -1,0 +1,40 @@
+<header class="bg-dark text-white py-3">
+  <div class="container">
+    <div class="d-flex justify-content-between align-items-center">
+      <a routerLink="/" class="navbar-brand text-white">PetProject</a>
+      <nav class="d-flex">
+        <ul class="navbar-nav d-flex flex-row">
+          <li class="nav-item mx-2">
+            <a class="nav-link text-white" routerLink="/">Home</a>
+          </li>
+          <ng-container *ngIf="user !== undefined && user?.roles?.includes('Admin')" >
+            <li class="nav-item dropdown mx-2">
+              <a class="nav-link dropdown-toggle text-white" href="#" id="adminDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Admin
+              </a>
+              <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="adminDropdown">
+                <li><a class="dropdown-item" routerLink="/admin/categories">Categories</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a routerLink="/admin/products" class="dropdown-item" >Products</a></li>
+              </ul>
+            </li>
+          </ng-container>
+            <ng-container *ngIf="user === undefined;else showLogout" >
+              <li class="nav-item mx-2">
+                <a class="nav-link text-white" routerLink="/register">Sign Up</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link text-white" routerLink="/login">Login</a>
+              </li>
+            </ng-container>
+            <ng-template #showLogout>
+              <div class="d-flex align-items-center">
+                <span class="text-white me-3">{{user?.email}}</span>
+                <button class="nav-link text-white" (click)="onLogout()">Logout</button>
+              </div>
+            </ng-template>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>

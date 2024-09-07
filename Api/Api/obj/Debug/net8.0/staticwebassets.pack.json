@@ -1,0 +1,61 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Misha\\source\\Repos\\Pet-Project---.Net-and-Angular\\Api\\Api\\wwwroot\\images\\Test.jpg",
+      "PackagePath": "staticwebassets\\images\\Test.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Misha\\source\\Repos\\Pet-Project---.Net-and-Angular\\Api\\Api\\wwwroot\\images\\Test5.jpg",
+      "PackagePath": "staticwebassets\\images\\Test5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Misha\\source\\Repos\\Pet-Project---.Net-and-Angular\\Api\\Api\\wwwroot\\images\\bcvbcvbc.jpg",
+      "PackagePath": "staticwebassets\\images\\bcvbcvbc.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Misha\\source\\Repos\\Pet-Project---.Net-and-Angular\\Api\\Api\\wwwroot\\images\\rwerwerwer.jpg",
+      "PackagePath": "staticwebassets\\images\\rwerwerwer.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Misha\\source\\Repos\\Pet-Project---.Net-and-Angular\\Api\\Api\\wwwroot\\images\\sdfdsfsd.jpg",
+      "PackagePath": "staticwebassets\\images\\sdfdsfsd.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Misha\\source\\Repos\\Pet-Project---.Net-and-Angular\\Api\\Api\\wwwroot\\images\\sdfsdfsdfhgfh.jpg",
+      "PackagePath": "staticwebassets\\images\\sdfsdfsdfhgfh.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Misha\\source\\Repos\\Pet-Project---.Net-and-Angular\\Api\\Api\\wwwroot\\images\\test 2.jpg",
+      "PackagePath": "staticwebassets\\images\\test 2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Misha\\source\\Repos\\Pet-Project---.Net-and-Angular\\Api\\Api\\wwwroot\\images\\test3.jpg",
+      "PackagePath": "staticwebassets\\images\\test3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Misha\\source\\Repos\\Pet-Project---.Net-and-Angular\\Api\\Api\\wwwroot\\images\\test4.jpg",
+      "PackagePath": "staticwebassets\\images\\test4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Misha\\source\\Repos\\Pet-Project---.Net-and-Angular\\Api\\Api\\wwwroot\\images\\ролодолодло.jpg",
+      "PackagePath": "staticwebassets\\images\\ролодолодло.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Api.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Api.props",
+      "PackagePath": "build\\Api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Api.props",
+      "PackagePath": "buildMultiTargeting\\Api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Api.props",
+      "PackagePath": "buildTransitive\\Api.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

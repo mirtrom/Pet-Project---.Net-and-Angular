@@ -1,0 +1,42 @@
+<div class="container">
+	<div class="row pt-4">
+		<div class="col-6">
+			<h2 class="text-dark">Products</h2>
+		</div>
+		<div class="col-6 text-end">
+			<a class="btn btn-dark" routerLink="/admin/products/add">
+				<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-circle" viewBox="0 0 16 16">
+					<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"></path>
+					<path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"></path>
+				</svg>
+				Create New Product
+			</a>
+		</div>
+	</div>
+
+	<table id="tbldata" class="table table-bordered table-striped">
+		<thead>
+			<tr>
+				<th class="text-center">Name</th>
+				<th class="text-center">Description</th>
+				<th class="text-center">Price</th>
+				<th class="text-center">Category</th>
+				<th class="text-center">Image Url</th>
+				<th class="text-center">Actions</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr *ngFor="let product of model">
+				<td>{{ product.name }}</td>
+				<td>{{ product.description }}</td>
+				<td>{{ product.price }}</td>
+				<td>{{ product.category.name }}</td>
+				<td><img style="width: 100px; height: 100px;" [src]="imageUrl + product.image.url" > </td>
+        <td>
+          <a (click)="editProduct(product.id)" class="col-5 btn btn-dark btn-md me-2">Edit</a>
+          <a (click)="deleteProduct(product.id)" class="col-5 btn btn-danger btn-md">Delete</a>
+        </td>
+			</tr>
+		</tbody>
+	</table>
+</div>

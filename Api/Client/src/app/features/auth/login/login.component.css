@@ -1,0 +1,25 @@
+.container {
+  height: 100vh;
+}
+
+.login-container {
+  max-width: 400px;
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.form-control {
+  border-radius: 20px;
+}
+
+.btn-primary {
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.text-danger {
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
